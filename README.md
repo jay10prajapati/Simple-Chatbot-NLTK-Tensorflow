@@ -14,7 +14,7 @@
     * Fetch more appropriate responce within a class using _Cosine Simillarity_
  
  **Project Structure:**
- It mainly contains to jupyter notebook.
+ It mainly contains two jupyter notebook.
   
   1. PreprocessData_ModelBuild.ipynb :      
       * It will do all requiered pre-processing of data.
@@ -26,6 +26,12 @@
       * Restrive model and data from priveously saved checkpoints
       * Predict user's input class
       * Generate appropriate response using Cosine Simillarity
+ 
+ **Improvements:**
+  * We can maintain a similarity matrix within same class so that we can reduce calculation time as well as response time.
+  * For a given dataset, we can replace answer within question and genrate more samples out of it which contain different structure of same sentenses. So we can build more generelise model on top ofthis dataset.
+  * We can try different simillarity matrix and compare performance among them.
+  * We can try more complex nueral networks and can check perfomance.
       
 
 *************************************************************************************************************************************
