@@ -1,8 +1,5 @@
 # Simple-Chatbot-NLTK-Tensorflow
 
-
-**Deep Learning Specialization (overview 5 Courses)**
-
 **Note:** This simple chatbot is build mainly using python NLTK and Tensorflow libraries. The model is build on a limited dataset contains arround 10000 sentences in the question-answer format. 
 
 **Approch to build chatbot:** 
